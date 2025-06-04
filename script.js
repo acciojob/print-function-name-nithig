@@ -4,3 +4,8 @@ function AccioJob() {
 }
 
 AccioJob();  // alerts: "AccioJob"
+function functionName() {
+  alert(arguments.callee.name);
+}
+
+functionName();  // alerts: "AccioJob"
